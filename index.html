@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Coding Quiz</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+<script src="script.js"></script>
+<body>
+    <!--This is the "Start Quiz" button.-->
+<div class="start_btn"><button>Start Quiz</button>
+
+    <!--Once pressed, it will display an info box regarding the rules and version of the quiz.-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Welcome to the Coding Quiz!</span>
+        </div>
+        <div class="info_list">
+            <div class="info">Welcome to The Coding Quiz!</div>
+            <div class="info">This quiz will test your HTML and CSS coding abilities. Once you select your answer for each question, it cannot be undone!</div>
+            <div class="info">Once the time is depleted, the quiz skips the question! You have 30 seconds to answer each question.</div>
+            <div class="info">I hope this application works properly for you!</div>
+            <div class="info">- Jules O'Neale, the coder of this quiz</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <!--The quiz box itself. Witness its awe-inspiring quizziness!!-->
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Coding Quiz: HTML and CSS</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left:</div>
+                <div class="timer_sec">30</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!--Question-->
+            </div>
+            <div class="option_list">
+                <!--Answer Choices-->
+            </div>
+        </section>
+
+        <!--Footer of Quiz box-->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!--Inside this JavaScripst file is the list of questions and such!-->
+    <script src="questions.js"></script>
+
+    <!--Inside here is the main JavaScript file.-->
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
