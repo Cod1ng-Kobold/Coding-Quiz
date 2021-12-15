@@ -8,11 +8,11 @@ This quiz is still a work in progress.
 
 ❌ = Incomplete
 _________________________________________________________________________________________________
-❌ Start button that, well, starts the quiz. (Pretty self-explanatory, right?)
+✅ Start button that, well, starts the quiz. (Pretty self-explanatory, right?)
 
-❌ A timer that counts down from 30 seconds. When the timer reaches 0, the question is skipped and no points are obtained.
+✅ A timer that counts down from 30 seconds. When the timer reaches 0, the question is skipped and no points are obtained.
 
-❌ 10 questions on the subject of coding. Each question will be multiple choice, with one correct answer out of 4 answer choices for each question.
+✅ 10 questions on the subject of coding. Each question will be multiple choice, with one correct answer out of 4 answer choices for each question.
 
 ❌ A final score display where you can sign your initials, just like an Arcade Machine! (~~Except less fun)
 
